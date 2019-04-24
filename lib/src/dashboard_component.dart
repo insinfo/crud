@@ -6,12 +6,12 @@ import 'package:angular_router/angular_router.dart';
 
 
 @Component(
-  selector: 'teste-comp',
+  selector: 'dashboard-comp',
   styles: [''],
-  template: '''<h1>teste component</h1>''',
+  template: '''<h1>dashboard component</h1>''',
   directives: [ formDirectives, coreDirectives],
 )
-class TesteComponent {
+class DashboardComponent {
 
 
 }
